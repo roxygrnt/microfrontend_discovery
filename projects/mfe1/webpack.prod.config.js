@@ -23,7 +23,7 @@ module.exports = {
         name: "mfe1",
         filename: "remoteEntry.js",
         exposes: {
-            './Module': './projects/mfe1/src/app/flights/flights.module.ts',
+            './Module': './dist/mfe1/src/app/flights/flights.module.ts',
         },        
         
         // For hosts (please adjust)
